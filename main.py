@@ -2,7 +2,7 @@ import pandas as pd
 from scipy import stats
 import matplotlib.pyplot as plt
 
-# Data representation
+# Presentation of data for the period 2001-2022
 data = pd.DataFrame({
     'Interest Rate': [18.3, 9.0, 7.0, 8.2, 9.5, 8.5, 8.0, 11.0, 10.6, 8.6, 7.8, 7.5, 6.8, 12.0, 26.6, 17.3, 13.1, 17.3, 16.7, 7.4, 7.7, 20.7],
     'CPI': [106.1, 99.4, 108.2, 112.3, 110.3, 111.6, 116.6, 122.3, 112.3, 109.1, 104.6, 99.8,100.5 ,124.9 ,143.3 ,112.4 ,113.7 ,109.8 ,104.1 ,105 ,110 ,126]
